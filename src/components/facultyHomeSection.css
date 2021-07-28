@@ -1,0 +1,69 @@
+.faculty-inner{
+    position: absolute;
+    top: 160vh;
+    left: 0;
+    height: 40vh;
+    width: 100%;
+    background-image: url("https://i.ytimg.com/vi/fKwAmxPkNco/maxresdefault.jpg") ;
+    background-attachment: fixed ;
+    background-size: cover;
+    
+    
+}
+.faculty-layer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    width: 74%;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.7);
+    /* position: relative; */
+
+}
+.faculty-btn{
+    color: white;
+    font-size: 2rem;
+    align-self: center;
+    padding: .4rem .8rem;
+    /* margin: 3rem; */
+    border: thick double #ddd;
+    border-top: none;
+    cursor: pointer;
+    z-index: 1;
+    box-shadow: inset .1rem -.1rem .2rem .1rem #48A5AD, inset -.1rem .1rem .2rem .1rem #48A5AD;
+}
+
+.faculty-btn:hover {
+    color: #48A5AD;
+    box-shadow: .1rem -.1rem .2rem .1rem #48A5AD, -.1rem .1rem .2rem .1rem #48A5AD;
+}
+.faculty-btn:active{
+    box-shadow: inset .1rem -.1rem .2rem .1rem #48A5AD, inset -.1rem .1rem .2rem .1rem #48A5AD;
+}
+
+
+
+.faculty-inner h2{
+    font-size: 2rem;
+    color: #48A5AD;
+    align-self: center;
+    margin-top: 1rem;
+
+}
+.txt-highlight{
+    color: white;
+    text-transform: uppercase;
+    margin: 2rem 0;
+    
+}
+
+.faculty-inner p{
+   color: rgba(255, 255, 255, 0.7);
+   padding: 2rem;
+   align-self: center;
+   font-size: 1.1rem;
+
+
+}

@@ -1,0 +1,39 @@
+
+
+.slider{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* overflow: hidden; */
+}
+
+.silder-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+}
+
+
+
+.right-arrow {
+    position: absolute;
+    top: 50%;
+    right: 35px;
+    font-size: 3rem;
+    cursor: pointer;
+    user-select: none;
+    z-index: 11;
+
+}
+.left-arrow {
+    position: absolute;
+    top: 50%;
+    left: 35px;
+    font-size: 3rem;
+    cursor: pointer;
+    user-select: none;
+    z-index: 11;
+}

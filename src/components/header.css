@@ -1,0 +1,129 @@
+/*  color1 -> #0072ce
+    color2* -> #32271E
+    color2 -> #534a43
+    color3 -> rgba(255, 255, 255, .9)
+    logoColor --> #48A5AD
+*/
+
+nav {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    height: 16vh;
+    align-items: center;
+    justify-content: center;
+}
+
+nav .logo {
+    flex: 1;
+    z-index: 10;
+    text-align: center;
+}
+
+nav .navList {
+    flex: 5;
+    z-index: 10;
+}
+.link{
+    text-decoration: none;
+    color: rgba(255, 255, 255);
+    padding: .7rem 1rem;
+    display: block;
+    text-align: center;
+}
+
+.link-sub{
+    text-decoration: none;
+    color: rgba(255, 255, 255);
+    padding: .6rem 1rem;
+    display: block;
+    text-align: center;
+    
+    
+
+}
+.link-sub-sub{
+    text-decoration: none;
+    color: rgba(255, 255, 255);
+    padding: .4rem .5rem;
+    display: block;
+    text-align: center;
+    
+
+}
+.link-img{
+    display: block;
+
+}
+.img-tag{
+    margin-top: 1.3rem;
+}
+
+
+
+
+
+.ul-wrapper {
+    display : flex;
+    justify-content: space-evenly;
+}
+
+.ul-wrapper > li {
+    list-style: none;
+    background-color: #48A5AD;
+    color: white;
+    margin: 1rem 0;
+    /* padding: .7rem .7rem; */
+    position: relative;
+    border-radius: 50% 20% / 10% 40%;
+   
+   
+}
+.ul-wrapper li:hover {
+    background-color: #32271E;
+    cursor: pointer;
+}
+
+
+.ul-subItem{
+    display : none;
+    position : absolute;
+    width: max-content;
+    left: 0;
+    top: 100%;
+    box-shadow: 3px 3px 4px 1px #48A5AD;
+    z-index: 10;
+}
+.ul-wrapper > li:hover .ul-subItem{
+    display: block;
+}
+
+.ul-subItem > li {
+    position: relative;
+    list-style: none;
+    background-color: #534a43;
+    /* border-bottom: 1px solid #362f2b; */
+    border: none;
+    font-size: 1rem;
+    /* padding: .5rem 1rem; */
+}
+
+.ul-sub-subItem{
+    display: none;
+    position: absolute;
+    left: 100%;
+    top: 0;
+    background-color: #534a43;
+    width: max-content;
+    list-style: none; 
+    box-shadow: 2px 2px 3px 1px #48A5AD;
+    z-index: 10;
+   
+}
+.ul-subItem li:hover > .ul-sub-subItem{
+    display: block;
+}
+
+/* .ul-sub-subItem li{
+    padding: .25rem .5rem;
+} */
